@@ -9,5 +9,5 @@ Decorated by SeenSven
 [Original Guard Video](https://www.youtube.com/watch?v=9yQQRJj1QWQ) by TheDeafCreeper  
 [Updated Guard Video](https://www.youtube.com/watch?v=DSZtGFdgpPI) by TheDeafCreeper  
 
-[Deaf's Discord](https://discord.gg/c9EGJrV2N8)  
+[Deaf's Discord](discord.thedeafcreeper.com)  
 [SeenSven's Discord](https://discord.gg/ZqhuAPrTRw)
