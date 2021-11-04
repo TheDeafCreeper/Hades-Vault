@@ -1,0 +1,152 @@
+@font-face {
+    font-family: TheMinecraft;
+    font-weight: normal;
+    src: url("../font/MinecraftRegular-Bmg3.otf") format("opentype");
+}
+
+html {
+    font-family: TheMinecraft !important;
+    font-size: calc(100vh / 32.14) !important;
+    font-weight: normal !important; 
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#PageHeader {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+#PageHeader #Title {
+    padding-top: 9.1rem;
+    text-align: center;
+    width: 100%;
+}
+
+#PageHeader #Title h1 {
+    margin: 0;
+    font-size: 4.01rem;
+    font-weight: normal;
+    line-height: 4.01rem;
+}
+
+#PageHeader #Title h2 {
+    margin: 0rem 0 0 0;
+    font-size: 1.71rem;
+    font-weight: normal;
+    line-height: 1.71rem;
+}
+
+#PageHeader #Download {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#PageHeader #Download #DownloadButton {
+    min-width: 8rem;
+    height: 1.78rem;
+    border-radius: 0.42rem;
+    background-color: #161417;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.43);
+    font-size: 0.85rem;
+    line-height: 1.78rem;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding: 0.2rem 1rem 0;
+    color: white !important;
+    cursor: pointer;
+    text-decoration: none !important;
+    user-select: none;
+}
+
+#PageHeader #Download #ReleasePageLink {
+    height: 1rem;
+    font-size: 0.64rem;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    color: white !important;
+    cursor: pointer;
+    text-decoration: none !important;
+    padding-top: 0.2rem;
+}
+
+#PageHeader #Download #ReleasePageLink:hover {
+    color: #00D2FF !important;
+    text-decoration: underline !important;
+}
+
+#PageHeader #Discord {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#PageHeader #Discord p {
+    height: 1.78rem;
+    font-size: 0.85rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#PageHeader #Discord a {
+    height: 2.57rem;
+    width: 2.57rem;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 0.17rem solid #7289DA;
+    display: inline-block;
+    margin: 0 0.3rem;
+    cursor: pointer;
+    text-decoration: none !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#PageHeader #Discord #SeenSven {
+    background-image: url('../img/seensven.jpg');
+}
+
+#PageHeader #Discord #TheDeafCreeper {
+    background-image: url('../img/deaf.jpg');
+}
+
+#PageFooter {
+    background-color: #161417;
+    color: #fff;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#PageFooter h3 {
+    font-size: 18pt;
+    text-align: center;
+}
+
+@media (orientation:portrait) {
+    html {
+        font-size: calc(100vw / 39) !important;
+    }
+
+    #PageHeader  {
+        height: 35rem;
+    }
+}
