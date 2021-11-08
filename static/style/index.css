@@ -57,7 +57,7 @@ body {
     margin-top: 4rem;
 }
 
-#PageHeader #Download #DownloadButton {
+#PageHeader #Download .DownloadButton {
     min-width: 8rem;
     height: 1.78rem;
     border-radius: 0.42rem;
@@ -73,6 +73,7 @@ body {
     cursor: pointer;
     text-decoration: none !important;
     user-select: none;
+    margin-top: 5px;
 }
 
 #PageHeader #Download #ReleasePageLink {
@@ -94,7 +95,7 @@ body {
 
 #PageHeader #Discord {
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
 }
 
 #PageHeader #Discord p {
